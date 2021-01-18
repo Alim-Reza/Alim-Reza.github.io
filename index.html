@@ -18,6 +18,23 @@
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+                <script type="text/javascript">
+                    function dm() {
+                        if (document.body.style.backgroundColor === "black") {
+                            document.body.style.backgroundColor = "white";
+                        } else if (document.body.style.backgroundColor === "white") {
+                            document.body.style.backgroundColor = "black";
+                        } else {
+                            document.body.style.backgroundColor = "white";
+                        }
+                     };
+                 </script>
+            <div id="darkMode"></div>
+                <label class="switch">
+                    <input type="checkbox" onclick="dm()">
+                    <span class="slider round"></span>
+                  </label>
+            </div>
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Alim Ahmed Reza</span>
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span>
