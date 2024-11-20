@@ -8,4 +8,10 @@ export default defineConfig({
     // Uncomment and set `base` if your app needs a subfolder
     // base: '/your-subfolder-name/',
   },
+  resolve: {
+    alias: {
+      // Add an alias for `aos` if necessary
+      'aos': 'node_modules/aos/dist/aos.js',
+    },
+  },
 });
