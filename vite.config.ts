@@ -11,5 +11,12 @@ export default defineConfig({
     // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
     // nitro/vite builds from this
     server: { entry: "server" },
+    // SPA mode: prerender the shell to static HTML instead of running a server,
+    // so the build is plain static files deployable to GitHub Pages.
+    spa: {
+      enabled: true,
+      prerender: { outputPath: "index.html" },
+    },
   },
+  nitro: false,
 });
