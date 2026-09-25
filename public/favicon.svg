@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Alim Ahmed Reza monogram">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111827" />
+      <stop offset="1" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bg)" />
+  <path d="M18 46L28.2 18h7.6L46 46h-7l-2.2-6H27.2l-2.2 6Zm11.2-11.6h5.6L32 24.8Z" fill="#f8fafc" />
+  <path d="M39.8 19.5h6.1v25h-6.1Z" fill="#f8fafc" opacity="0.92" />
+</svg>
